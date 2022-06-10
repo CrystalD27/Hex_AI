@@ -1,0 +1,904 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.index_body {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+
+}
+
+.toTop {
+    position: absolute;
+    right: 60px;
+    top: 650px;
+    position: fixed;
+    z-index: 5;
+}
+
+.bg_ball1 {
+    position: absolute;
+    left: -230px;
+    top: 500px;
+}
+
+.bg_ball2 {
+    position: absolute;
+    right: -100px;
+    top: 1480px;
+    z-index: -5;
+}
+
+.bg_ball3 {
+    position: absolute;
+    left: 65px;
+    top: 2430px;
+    z-index: -10;
+
+}
+
+.container {
+    max-width: 1088px;
+    margin: 0 auto;
+    font-family: Noto Sans TC;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 218.06px;
+    height: 40px;
+    margin: 24px 0px;
+
+}
+
+.header a {
+    background-color: #ff5D50;
+    border-radius: 22px;
+    padding: 8px 32px;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.header a:hover {
+    background-color: #747474;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 217px;
+}
+
+.banner img {
+    width: 532px;
+    height: 534px;
+}
+
+.slogan {
+    color: #56C4C5;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.solution {
+    font-size: 20px;
+    padding-top: 16px;
+}
+
+.contact {
+
+    text-align: center;
+    max-width: 1088px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.contact h3 {
+    font-size: 32px;
+    padding-bottom: 48px;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact li img {
+    width: 33%;
+
+}
+
+.contact li h4 {
+    display: block;
+    font-size: 24px;
+    padding: 24px 0px;
+}
+
+.contact li p {
+    color: #747474;
+
+}
+
+.role {
+
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+
+
+.role h3 {
+    padding-bottom: 16px;
+    font-size: 32px;
+}
+
+.role h6 {
+    font-size: 20px;
+    padding-bottom: 48px;
+}
+
+
+.role ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+
+}
+
+.role ul li {
+    width: 25%;
+}
+
+
+
+.role ul h5 {
+    color: #56C4C5;
+}
+
+.role .padding {
+    padding-bottom: 24px;
+}
+
+
+.advantage {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.function {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 45%;
+    flex-shrink: 1;
+
+}
+
+
+.ft_cuz {
+    margin-bottom: 28px;
+}
+
+
+.ft_chat {
+    margin-bottom: 28px;
+}
+
+.function li {
+    width: 47%;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    opacity: 1;
+
+}
+
+
+.function li img {
+    padding: 32px 112px 24px 32px;
+}
+
+.function li h5 {
+    padding-left: 32px;
+    padding-bottom: 16px;
+    font-size: 18px;
+}
+
+.function li p {
+    padding: 0px 32px;
+    line-height: 1.5;
+}
+
+
+.package {
+    width: 49%;
+    text-align: left;
+    padding-left: 137px;
+}
+
+.package h3 {
+    font-size: 32px;
+    padding-bottom: 16px;
+
+}
+
+
+
+.package p {
+    font-size: 18px;
+}
+
+
+.package a {
+
+    padding: 12px 32px;
+    background-color: #56C4C5;
+    color: #f5f5f5;
+    border-radius: 27px;
+    text-decoration: none;
+}
+
+.comment {
+    text-align: center;
+
+}
+
+
+.comment ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.comment li {
+    width: 33%;
+    text-align: left;
+    position: relative;
+    padding: 48px 32px 0px 32px;
+    margin-bottom: 24px;
+
+}
+
+
+.comment .photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 360%;
+    margin-top: 48px;
+    position: absolute;
+    top: -100px;
+    left: 32px;
+}
+
+.comment p {
+    padding-bottom: 24px;
+
+}
+
+.comment h3 {
+    font-size: 32px;
+    padding-top: 100px;
+    padding-bottom: 104px;
+
+}
+
+
+.profolio h5 {
+    font-size: 14px;
+}
+
+.position {
+    font-size: 14px;
+}
+
+.stars img {
+    max-width: 10px;
+
+}
+
+
+.comment li {
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.comment .profolio {
+    padding: 24px 0px;
+
+}
+
+
+
+.comment .position {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+
+}
+
+.comment .stars {
+    display: flex;
+}
+
+.footerbox {
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footerbox h2 {
+    padding-top: 260px;
+    font-size: 32px;
+}
+
+
+.footerbox a {
+    padding: 12px 36px;
+    background-color: #56C4C5;
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 27px;
+    margin-top: 48px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.footer p {
+    padding: 16px 0px;
+}
+
+@media (max-width:767px) {
+    .index_body {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home.svg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 80%;
+
+    }
+
+    .bg_ball3 {
+        left: 0px;
+        top: 2250px;
+    }
+
+    .banner img {
+        width: 432px;
+        height: 434px;
+    }
+
+    .toTop {
+        position: absolute;
+        top: 480px;
+        position: fixed;
+
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .solution {
+        font-size: 14px;
+    }
+
+    .package {
+        padding-left: 100px;
+
+    }
+
+    .package h3 {
+        font-size: 28px;
+
+    }
+}
+
+@media (max-width:576px) {
+    .index_body {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home.svg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 90%;
+    }
+
+    .toTop img {
+        position: absolute;
+        top: 390px;
+        position: fixed;
+        max-width: 45px;
+        height: 45px;
+
+    }
+
+    .bg_ball1 img {
+        position: absolute;
+        left: 100px;
+        top: -100px;
+        max-width: 200px;
+        height: 200px;
+
+    }
+
+    .bg_ball2 img {
+        position: absolute;
+        right: 100px;
+        top: -580px;
+        z-index: -5;
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .bg_ball3 img {
+        position: absolute;
+        left: 0px;
+        top: -250px;
+        z-index: -5;
+        max-width: 120px;
+        height: 120px;
+
+    }
+
+    .banner {
+        margin-bottom: 230px;
+    }
+
+    .banner img {
+        width: 332px;
+        height: 334px;
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 27px;
+    }
+
+    .solution {
+        font-size: 14px;
+    }
+
+    .contact h3 {
+        padding-bottom: 32px;
+    }
+
+    .comment h3 {
+        padding-top: 40px;
+
+    }
+
+    .contact li h4 {
+        font-size: 22px;
+        padding: 10px 0px;
+    }
+
+    .contact li p {
+        font-size: 12px;
+    }
+
+    .role {
+        margin-top: 40px;
+    }
+
+    .function {
+        margin-top: 40px;
+    }
+
+    .footerbox {
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width:375px) {
+    .index_body {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home_sm.svg);
+        background-repeat: no-repeat;
+        background-position: center top 8%;
+        background-size: 90%;
+    }
+
+    .toTop img {
+        position: absolute;
+        top: 530px;
+        left: 300px;
+        position: fixed;
+        max-width: 50px;
+        height: 50px;
+
+    }
+
+    .bg_ball1 img {
+        display: none;
+
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+
+    .header a {
+        font-size: 16px;
+        padding: 8px 32px;
+
+    }
+
+    .header img {
+        width: 130px;
+        height: 24px;
+
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 98.5px;
+
+    }
+
+    .banner img {
+        width: 304px;
+        height: 305px;
+
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .solution {
+        font-size: 16px;
+    }
+
+    .package {
+        padding-left: 0px;
+    }
+
+    .package {
+        width: 100%;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .contact {
+        padding-top: 98px;
+    }
+
+    .contact h3 {
+        font-size: 28px;
+    }
+
+    .contact ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact li img {
+        width: 100%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact li h4 {
+        font-size: 18px;
+        padding: 16px 0px;
+    }
+
+    .contact li p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .pb_24 {
+        padding-bottom: 24px;
+    }
+
+    .role h3 {
+        font-size: 28px;
+    }
+
+    .role h6 {
+        font-size: 18px;
+        padding-bottom: 32px;
+    }
+
+    .role {
+        margin-top: 60px;
+        margin-bottom: 16px;
+    }
+
+    .role ul h5 {
+        padding-top: 16px;
+
+    }
+
+    .role ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .role ul li {
+        width: 80%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 10px #00000014;
+        border-radius: 12px;
+    }
+
+    .role li img {
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .advantage {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+
+
+    }
+
+    .function {
+        display: flex;
+        flex-direction: column;
+        width: 68%;
+        margin-top: 32px;
+    }
+
+    .ft_cuz {
+        margin-bottom: 24px;
+
+    }
+
+    .ft_pf {
+        margin-bottom: 24px;
+
+    }
+
+    .ft_mg {
+        margin-bottom: 60px;
+
+    }
+
+    .ft_chat {
+        margin-bottom: 24px;
+
+    }
+
+    .function li {
+        width: 100%;
+
+    }
+
+    .package h3 {
+        font-size: 28px;
+
+    }
+
+    .package p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .comment {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment li {
+        width: 100%;
+    }
+
+    .comment .cmment_1 {
+        width: 100%;
+
+    }
+
+    .comment .comment_2 {
+        display: none;
+    }
+
+    .comment .comment_3 {
+        display: none;
+    }
+
+    .comment h3 {
+        padding-top: 60px;
+        padding-bottom: 88px;
+    }
+
+    .comment .comment_1 {
+
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 10px #00000014;
+        border-radius: 12px;
+    }
+
+    .footerbox h2 {
+        font-size: 24px;
+    }
+}
