@@ -158,22 +158,31 @@ table {
 
 .bg_ball1 {
     position: absolute;
-    left: -230px;
-    top: 500px;
+    background-position: right;
+    top: calc(100vh - 180px);
+    width: 200px;
+    height: 360px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball01.svg);
 }
 
 .bg_ball2 {
     position: absolute;
-    right: -100px;
+    right: 0px;
     top: 1480px;
+    width: 100px;
+    height: 300px;
     z-index: -5;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball02.svg);
 }
 
 .bg_ball3 {
     position: absolute;
     left: 65px;
     top: 2430px;
+    width: 150px;
+    height: 150px;
     z-index: -10;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball03.svg);
 
 }
 
@@ -530,6 +539,17 @@ table {
 
     }
 
+    .bg_ball1 {
+        position: absolute;
+        background-position: right;
+        top: 65vh;
+        width: 200px;
+        height: 360px;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball01.svg);
+    }
+
     .bg_ball3 {
         left: 0px;
         top: 2250px;
@@ -587,31 +607,8 @@ table {
 
     }
 
-    .bg_ball1 img {
-        position: absolute;
-        left: 100px;
-        top: -100px;
-        max-width: 200px;
-        height: 200px;
-
-    }
-
-    .bg_ball2 img {
-        position: absolute;
-        right: 100px;
-        top: -580px;
-        z-index: -5;
-        max-width: 200px;
-        height: 200px;
-    }
-
-    .bg_ball3 img {
-        position: absolute;
-        left: 0px;
-        top: -250px;
-        z-index: -5;
-        max-width: 120px;
-        height: 120px;
+    .bg_ball1 {
+        background: none;
 
     }
 
@@ -686,8 +683,8 @@ table {
 
     }
 
-    .bg_ball1 img {
-        display: none;
+    .bg_ball1 {
+        background: none;
 
     }
 
