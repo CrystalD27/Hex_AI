@@ -665,7 +665,7 @@ table {
 }
 
 
-@media (max-width:413px) {
+@media (max-width:414px) {
     .index_body {
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home_sm.svg);
         background-repeat: no-repeat;
