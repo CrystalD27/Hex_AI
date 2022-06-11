@@ -162,6 +162,7 @@ table {
     top: calc(100vh - 180px);
     width: 200px;
     height: 360px;
+    z-index: -10;
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball01.svg);
 }
 
@@ -548,6 +549,7 @@ table {
         background-size: 75%;
         background-repeat: no-repeat;
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball01.svg);
+        z-index: -10;
     }
 
     .bg_ball3 {
